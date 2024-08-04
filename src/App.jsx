@@ -1,4 +1,4 @@
-import useFetch from "./useFetch";
+import useFetch from "./hooks/useFetch";
 import { useState, useEffect } from "react";
 export default function App() {
   const [disabled, setDisabled] = useState(false);
